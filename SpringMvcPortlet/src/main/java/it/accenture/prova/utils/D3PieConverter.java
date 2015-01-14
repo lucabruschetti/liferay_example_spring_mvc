@@ -5,13 +5,17 @@ import java.io.Serializable;
 public class D3PieConverter implements Serializable{
 
 	private static final long serialVersionUID = -7162369296034046712L;
+	private String id;
 	private String label;
 	private int value;
 	private String color;
 	
-	
-	
-	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 	public String getLabel() {
 		return label;
 	}
